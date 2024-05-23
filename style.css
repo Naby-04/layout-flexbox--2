@@ -81,6 +81,14 @@ aside li a {
 h1 {
   margin-top: 5px;
 }
+ .attribution {
+  font-size: 11px;
+  text-align: center;
+ }
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
 @media screen and (max-width: 900px) {
   .container {
     display: block;
