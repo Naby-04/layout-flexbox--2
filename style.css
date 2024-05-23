@@ -7,7 +7,6 @@
 }
 .container {
   display: flex;
-  /* flex-wrap: wrap; */
   padding: 10px;
   margin: 10px;
   margin-top: 60px;
@@ -26,10 +25,6 @@ header ul li a {
 nav {
   padding: 30px;
   display: flex;
-  /* 
-    apres avoir mis un display flex on remarque que l'element ocupe 
-    juste la largeur dont elle a besoin mais aussi prends toute la hauteur
-     */
   justify-content: end;
   border: 1px solid;
   margin: 10px;
@@ -39,7 +34,6 @@ nav {
 
 aside {
   background: #292929;
-  /* width: 150px; */
   height: 500px;
   padding: 40px;
   display: flex;
@@ -61,7 +55,6 @@ aside li a {
   background: #d8d7d7;
   width: 100%;
   max-height: 582px;
-  /* padding-left: 20px; */
   text-align: center;
 }
 .layout-items {
@@ -94,7 +87,6 @@ h1 {
     display: block;
     padding: 40px;
     margin: 10px;
-    margin-top: 60px;
     border: 1px solid;
   }
   .layout-items div {
