@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>layout flexbox</title>
+  </head>
+  <!-- 
+      bonjour a tous aujourd'hui on se penche sur flexbox,
+      et quoi de mieux de vous l'expliquer à travers un tuto !!!
+   -->
+
+  <!-- 
+    C'est quoi flexbox?
+    flexbox est un module 
+    de mise en page en CSS qui offre une manière plus efficace de disposer, 
+    aligner et distribuer l'espace entre les éléments d'un conteneur
+    -->
+
+  <!-- 
+      le layout est simple faire un navbar horizontale et un sidebar suivi d'une main section pour
+      y mettre 3 elements
+    -->
+  <body>
+    <!-- 
+        d'abord nous allons nous pencher sur notre sidebar(nav bar verticale)
+       -->
+    <div class="container">
+      <aside>
+        <div>
+          <ul>
+            <li><a href="">Link1</a></li>
+            <li><a href="">Link2</a></li>
+            <li><a href="">Link3</a></li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li><a href="">Link1</a></li>
+            <li><a href="">Link2</a></li>
+            <li><a href="">Link3</a></li>
+          </ul>
+        </div>
+      </aside>
+      <!-- 
+            Ensuite passons au header ou l'on mettra notre navbar horizontale
+           -->
+      <div class="right-side">
+        <header>
+          <nav>
+            <ul>
+              <li><a href="#">Contact us</a></li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Remember</a></li>
+              <li><a href="#">Dome</a></li>
+            </ul>
+          </nav>
+        </header>
+        <main class="layout-items">
+          <div>1</div>
+          <div>2</div>
+          <div>3</div>
+        </main>
+        <h1>Bakeli school of technology- #flexbox</h1>
+      </div>
+    </div>
+  </body>
+</html>
